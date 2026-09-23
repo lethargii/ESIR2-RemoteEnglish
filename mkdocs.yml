@@ -97,9 +97,3 @@ extra:
       name: dépôt github
 
 
-extra_javascript:
-  - javascripts/config.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-extra_css:
-  - stylesheets/extra.css
