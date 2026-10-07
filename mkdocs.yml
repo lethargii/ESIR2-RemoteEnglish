@@ -2,3 +2,15 @@ site_name: ESIR2 - Remote English
 site_url: https://lethargii.github.io/ESIR2-RemoteEnglish/
 theme:
   name: material
+  language: fr
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
