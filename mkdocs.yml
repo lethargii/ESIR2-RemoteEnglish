@@ -31,7 +31,6 @@ theme:
     - navigation.path
     - navigation.indexes
     - toc.follow
-    - toc.integrate
     - navigation.top
     - navigation.footer
   icon:
