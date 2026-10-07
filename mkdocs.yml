@@ -1,5 +1,4 @@
 site_name: ESIR2 - Remote English
 site_url: https://lethargii.github.io/ESIR2-RemoteEnglish/
-docs_dir: /(root)
 theme:
   name: material
