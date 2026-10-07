@@ -2,6 +2,8 @@ site_name: ESIR2 - Remote English
 
 site_url: https://lethargii.github.io/ESIR2-RemoteEnglish/
 
+repo_url: https://github.com/lethargii/ESIR2-RemoteEnglish
+
 theme:
   name: material
   language: fr
@@ -31,7 +33,20 @@ theme:
     - toc.follow
     - toc.integrate
     - navigation.top
+    - navigation.footer
+  icon:
+    repo: fontawesome/brands/github
+
 
 markdown_extensions:
   - toc:
       permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:l.sevault@proton.me
+    - icon: fontawesome/brands/github
+      link: https://github.com/lethargii/ESIR2-RemoteEnglish
+
+copyright: Copyright &copy; 2026 Lucien Sevault Wolber
