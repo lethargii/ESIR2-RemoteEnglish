@@ -1,5 +1,7 @@
 site_name: ESIR2 - Remote English
+
 site_url: https://lethargii.github.io/ESIR2-RemoteEnglish/
+
 theme:
   name: material
   language: fr
@@ -18,3 +20,18 @@ theme:
         name: Switch to light mode
       primary: blue grey
       accent: blue grey
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+
+markdown_extensions:
+  - toc:
+      permalink: true
